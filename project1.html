@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Abby Debell Unity</title>
+        <link rel="stylesheet" href="project.css">
+    </head>
+
+<header>
+    <div class= "container">      
+        <nav>
+            <ul>
+                <li><a target="_self" href="abbywebsite.html">Home</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+    
+<Section>
+    <h1>
+        <img src="unity1.png" alt="unity" style=width:150px;>
+    </h1>
+</Section>
+    
+<div class="main">
+    <p1>
+    As a self lead project outside of college time, I have been creating a 2D platform game using Unity. This has presented challenges as I am learning C# to code the game which is a new programming language to me. Using the physics engine in Unity I trialled different speed and velocities to ensure the player experience is enjoyable. I have added collisions to make the game play realistic. This is an ongoing project which is developing my C# and Unity skills.
+        <br>
+    </p1>
+    
+    <p2>
+        <br>
+    As you can see below I have included screenshots of the unity game below and explained some of the steps in the process of making it:
+        <br>
+    </p2>
+<!--
+<div class="ss">
+    <p3 style="clear: both;">
+        <br>
+        <img src="assets/bbb.png" style="float: left;" />
+        This is some text 
+    </p3>
+    
+      <p4 style="clear: both;">
+          <br>
+        <br>
+        <img src="assets/bbb.png" style="float: left;" />
+        This is some text 
+    </p4>
+    </div>
+
+</div>
+-->    
+<table class="test" cellpadding="10">
+<tr>
+    <td class="col-1"><img src="assets/fallweb.gif" alt="test"></td>
+    <td class="col-2"><h2><u>Camera Position</u></h2> I have programmed my game so that the camera follows the player, rather than the player seeing the whole level when playing. The white box shown in the gif represents the camera view in which the player sees when in game play. Maximum X and Y values ensure that the camera does not move outside of the level I created.
+    </td>
+</tr>
+
+<tr>
+    <td class="col-1"><img src="assets/jumpweb.gif" alt="test"></td>
+    <td class="col-2"><h2><u>Jump Animation</u></h2>The Gif above shows the jump animation I gave the sprite. I added a takeoff and landing animation to make the simulation as lifelike as possible, allowing gamers to immerse themselves in the game play. <br> <br> I also spent time changing the elements of physics which effected the jump to ensure it was as user friendly as possible. Although origionallly i played with lifelike velocity, the landing took too long in the context of a game. After some research i discovered most 2D platformers (including the likes of Super Mario) ensure that the jump up takes longer than the jump down which provides more accurate landing, in order for the sprite to land on blocks. </td>
+</tr>
+    
+<tr>
+    <td class="col-1"><img src="assets/collisiontest.gif" alt="test"></td>
+    <td class="col-2"><h2><u>Collisions</u></h2>Another element I had to consider when creating this 2D platformer is the collisions between the sprite and other componants within the game. This gif shows how I have added collisions to the top of blocks as when the sprite lands on them, it does not fall through, however not on the bottom which means the sprite can run through the block and jump from beneath.</td>
+  </tr>
+    
+<tr>
+    <td class="col-1"><img src="assets/jumpattackweb.gif" alt="test"></td>
+    <td class="col-2"><h2><u>Attack & Jump Attack Animations</u></h2>Additionally to the idle and jump animations I also added an attack and jump attack animation. This animation is activated when left shift is pressed. The animation for attack will play if left shift is pressed and velocityY = 0 and the jump attack animation is played when volocityY > 0. These animations allow the player to attack both in the air and on the ground.</td>
+  </tr>
+    
+<tr>
+    <td class="col-1"><img src="assets/slideweb.gif" alt="test"></td>
+    <td class="col-2"><h2><u>Slide Animation</u></h2>Another additional function to the sprite which I added is the slide animation. This is activated by the player pressing left control, and allows the sprite to slide accross the screen.</td>
+  </tr>
+    </table>
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</html>
